@@ -1,0 +1,34 @@
+{
+  "name": "kode",
+  "version": "0.1.0",
+  "description": "A BYOK terminal coding agent with streaming, tools, subagents, MCP, skills, memory, and sessions.",
+  "type": "module",
+  "bin": {
+    "kode": "./bin/kode.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node bin/kode.js",
+    "test": "node test/check.js && node test/smoke.js",
+    "check": "node test/check.js"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "cli",
+    "coding-agent",
+    "byok",
+    "anthropic",
+    "openai",
+    "gemini",
+    "ollama"
+  ],
+  "license": "MIT"
+}
